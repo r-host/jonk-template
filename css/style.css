@@ -2716,6 +2716,9 @@ dl.hiw {
     clear: left;
     float: right; }
 
+  .navbar-main .nav li a {
+    padding: 24px 8px; }
+
   .nav > li > a {
     padding: 10px 6px; }
 
