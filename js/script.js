@@ -96,6 +96,15 @@ $(document).ready(function(){
 		loop: true,
 	});
 	
+	var slide = $("#slide-image");
+	slide.owlCarousel({
+		items: 1,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true,
+		loop: true,
+	});
+	
 	var owl = $("#owl-testimony");
 	owl.owlCarousel({
 		autoplay: 5000,
